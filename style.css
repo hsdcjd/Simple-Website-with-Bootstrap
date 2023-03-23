@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 145px;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    background-image: url('https://media.istockphoto.com/id/610020214/photo/assorted-bagels-in-a-full-frame-background.jpg?s=612x612&w=0&k=20&c=Ia1vEinN68-GWpyYQ3FweDNObX7CGnjjcsLMiRotUB4=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.topnav-centered {
+        color: black;
+            font-family: arial;
+            padding: 30px 30px;
+            text-align: center;
+            float: center;
+            border: 5px black;
+            border-radius: 10px;
+            
+        }
+.topnav-centered a {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.leftlogo img {
+    max-width: 10%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+p {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align:center;
+}
+
+h1 {
+    font-size: 80px ;
+    font-style: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 80px;
+    font-style: rgb(255, 0, 0);
+    text-align: center;
+
+}
+
+.box {
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: left;
+    text-justify: inter-word;
+    background-color: white;
+
+}
+.box2 {
+    width: 45%;
+    margin-left: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+
+    }
+
+.carousel-inner .carousel-item img {
+
+    max-width: auto;
+    min-height: 500px;
+    max-height: 500px;
+}
